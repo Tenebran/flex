@@ -1,0 +1,59 @@
+.icon::before{
+    font-family: "Font Awesome 5 Free";
+}
+
+.email::before{
+content: "\f0e0";
+display: none;
+font-weight: 900;
+}
+
+.messages::before{
+    content: "\f075" ;
+    display: none;
+    font-weight: 900;
+}
+
+.upload::before{
+    content: "\f093";
+    display: none;
+    font-weight: 900;
+}
+
+.options::before{
+    content: "\f0b0";
+    display: none;
+    font-weight: 900;
+}
+
+.profiles::before{
+    content: "\f2c1";
+    display: none;
+    font-weight: 900;
+}
+
+.connect::before{
+    content: "\f1eb";
+    display: none;
+    font-weight: 900;
+}
+
+.settings::before{
+    content: "\f085";
+    display: none;
+    font-weight: 900;
+}
+
+a{
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    display: inline-block;
+   font-size: 40px;
+    margin: 4px;
+}
+.icon:hover{
+    background-color: red;
+    color: springgreen;
+}
